@@ -8,6 +8,7 @@
 
  - PHP >= 7.2.5
  - MySQL
+ - Install Composer
 
 ## Database Set Up
 
@@ -29,17 +30,7 @@ Second Way:
 
 ## Run Project
 
-There are 2 ways to run the project. You can folow any one of them.
+Go to the root directory of project and open Command Prompt. Run the following commands : 
+ - composer update
+ - php artisan serve
 
-First Way:
-
-- Put the project in htdocs folder
-- Browse http://localhost/weDevs/public/ 
-
-Second Way:
-
-- Go to the root directory of project and open Command Prompt
-- Run Command : php artisan serve
-
-
-## You can change database name, database password from .env file which is located at root directory
