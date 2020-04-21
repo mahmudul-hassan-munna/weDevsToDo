@@ -42,4 +42,4 @@ Second Way:
 - Run Command : php artisan serve
 
 
-## You can change database name, database password from .env file which is located at root directorry
+## You can change database name, database password from .env file which is located at root directory
