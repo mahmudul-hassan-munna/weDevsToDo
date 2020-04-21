@@ -103,7 +103,7 @@
                   <thead>
                     <tr>
                       <td class="td-checkbox"><span><i class="fa fa-chevron-down" aria-hidden="true"></i></span></td>
-                      <td><input type="text" id="name" name="name" class="form-control name" placeholder="What needs to be done?" autocomplete="off"></td>
+                      <td><input type="text" id="name" name="name" class="form-control name" placeholder="What needs to be done?" autocomplete="off" maxlength="50"></td>
                       
                     </tr>
                   </thead>

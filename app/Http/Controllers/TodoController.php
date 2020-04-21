@@ -62,7 +62,7 @@ class TodoController extends Controller
                 $content .= '<tr>
                 <td class="td-checkbox"><input type="checkbox" id='.'checkbox-'.$todo->id.' name="todo_checkbox" class="checkbox-round" value='.$todo->id.' onclick="checkboxEvent('.$todo->id.')"></td>
                 <td><p class="edit-text" id='.'todo_show-'.$todo->id.'  onclick="openEdit('.$todo->id.')" >'.$todo->name.'</p>
-                <input type="text" name="name" id='.'name-'.$todo->id.' class="form-control edit-name" value="'.$todo->name.'" onkeydown="editName(event,'.$todo->id.')"  autocomplete="off">
+                <input type="text" name="name" id='.'name-'.$todo->id.' class="form-control edit-name" value="'.$todo->name.'" onkeydown="editName(event,'.$todo->id.')"  autocomplete="off" maxlength="50">
                 </td>
                 </tr>';
             }
